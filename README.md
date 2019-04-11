@@ -1,8 +1,8 @@
 # Elm 0.19 ports issue
 
-This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).
+This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app). It serves as a reproducible example for [halfzebra/create-elm-app issue #350](https://github.com/halfzebra/create-elm-app/issues/350).
 
-This proof of concept project attempts to send a datastructure from Elm to JavaScript using ports. 
+On startup, it attempts to send a datastructure from Elm to JavaScript using ports. 
 
 * `src/index.js` instantiates the Elm app and registreres a JavaScript handler to the expected port
 * `src/Main.elm` issues the `Cmd` to send the datastructure in its `init` function. 
